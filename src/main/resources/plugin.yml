@@ -1,0 +1,4 @@
+name: Coral-Disabler
+version: '${version}'
+main: me.ilia.coraldisabler.Coral_Disabler
+api-version: '1.19'
