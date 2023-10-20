@@ -1,5 +1,6 @@
 package me.ilia.coraldisabler;
 import net.kyori.adventure.text.minimessage.MiniMessage;
+import org.bukkit.World;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockFadeEvent;
@@ -22,7 +23,7 @@ public final class Coral_Disabler extends JavaPlugin implements Listener {
     }
     @EventHandler
     public void CoralDead(BlockFadeEvent event) {
-        if (event.getBlock().getType().toString().contains("CORAL")){
+        if (event.getBlock().getType().toString().contains("CORAL") && event.getBlock().getWorld().getName().equals("world")){
             event.setCancelled(true);
         }
     }
