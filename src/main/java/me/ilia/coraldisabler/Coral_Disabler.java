@@ -1,6 +1,5 @@
 package me.ilia.coraldisabler;
 import net.kyori.adventure.text.minimessage.MiniMessage;
-import org.bukkit.World;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockFadeEvent;
