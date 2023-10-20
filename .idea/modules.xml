@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Coral-Disabler.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Coral-Disabler.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Desktop.Coral-Disabler.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Desktop.Coral-Disabler.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/me.ilia.Coral-Disabler.main.iml" filepath="$PROJECT_DIR$/.idea/modules/me.ilia.Coral-Disabler.main.iml" />
     </modules>
   </component>
